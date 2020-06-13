@@ -33,5 +33,5 @@
 
 <input type="submit" value="Crear Cuenta">
 
-<a href="{{ route('inic') }}"> ¿Tienes una cuenta? Accede a tu cuenta</a>
+<a href="{{ route('inic') }}" id="sg"> ¿Tienes una cuenta? Accede a tu cuenta</a>
 @endsection

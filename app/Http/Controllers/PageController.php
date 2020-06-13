@@ -23,4 +23,8 @@ class PageController extends Controller
     public function recup(){
         return view('recu-cuent');
     }
+
+    public function newcont(){
+        return view('contra-recu');
+    }
 }

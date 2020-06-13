@@ -113,6 +113,13 @@ input[type="submit"]:hover{
     background: RGB(220, 20, 60,0.7 );
 }
 
+#mod{
+    margin: 10% 0;
+}
+
+.widht-box{
+     height: 350px;
+}
 
 @media (max-width:1118px){
     .boxs{
@@ -126,4 +133,7 @@ input[type="submit"]:hover{
     .b2{
         margin-top:55%;
     }
+
+
 }
+

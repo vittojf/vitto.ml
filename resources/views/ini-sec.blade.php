@@ -24,5 +24,5 @@
 @endsection
 
 @section('crear')
-<a href="{{ route('regist') }}"  id="mak" >Crear Cuenta</a>
+<a href="{{ route('regist') }}"   >Crear Cuenta</a>
 @endsection
