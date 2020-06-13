@@ -1,0 +1,129 @@
+
+
+*{
+    margin:none;
+    padding:none;
+    box-sizing:border-box;
+    font-family:Arial;
+    text-decoration:none;
+}
+
+
+body{
+background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+  .boxs{
+    position:relative;
+    height:400px;
+    width:30%;
+    background:white;
+    color:black;
+    margin:5% auto;
+    border-radius:10px 10px 10px 10px;
+    text-align:center;
+    transition:all 300ms;
+    font-weight:bold;
+    color:black;padding-top:1%;
+   margin-top:12%;
+   box-shadow: 8px 7px 16px -5px rgba(0,0,0,.3);
+}
+
+.b2{
+      margin: 15% auto;
+    padding-top:1px;
+height:210px;
+
+}
+
+
+
+a{color:RGB(30, 144, 255);}
+
+/*
+--OPCIONAL
+
+#mak {
+    
+    background:#B22222;
+    border-radius:5px 5px 5px 5px; 
+    text-decoration:none;
+    color:white;
+   padding:10px 50px 10px 50px;
+   
+    
+}
+*/
+.ch{   
+margin:auto;
+
+width:90%;
+text-align:left;
+font-weight:bold;
+
+}
+
+
+.b1{
+    margin: 2% auto;
+    padding-top:1px;
+height:700px;
+
+
+}
+
+.ch input{
+    font-size:11pt;
+    display:block;
+    border-style:none;
+    margin: 15px 0;
+    padding-left:10px;
+    height:35px;
+    width:100%;
+    background: RGB(220, 220, 220, 0.8);
+    color:	
+RGB(105, 105, 105);
+    font-weight:bold;
+    border-radius:5px 5px 5px 5px; 
+   
+   
+
+}
+::-webkit-input-placeholder { 
+    font-weight:bold;
+    color: 	
+RGB(169, 169, 169); 
+   
+    } 
+
+
+input[type="submit"]{
+    margin: 5% 0;
+    background:	#DC143C;
+    cursor:pointer;
+    text-align:center;
+    font-weight:bold;
+    font-size:15pt;
+    color:white;
+    transition: all 300ms;
+}
+input[type="submit"]:hover{
+    background: RGB(220, 20, 60,0.7 );
+}
+
+
+@media (max-width:851px){
+    .boxs{
+       margin-top:32%;
+        width:100%;
+
+    }
+    .b1{
+        margin-top:0;
+    }
+    .b2{
+        margin-top:55%;
+    }
+}

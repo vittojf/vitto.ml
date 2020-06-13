@@ -9,7 +9,7 @@ Route::get('ini', 'PageController@iniciar')->name('inic');
 
 Route::get('regis', 'PageController@regis')->name('regist');
 
-
+Route::get('recuperar', 'PageController@recup')->name('recup');
 Route::view('img','imagenes',[
     'num' => 505,
     'headers'=>[

@@ -19,4 +19,8 @@ class PageController extends Controller
     return view('regis');
         
     }
+
+    public function recup(){
+        return view('recu-cuent');
+    }
 }
