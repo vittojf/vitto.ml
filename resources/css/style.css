@@ -114,14 +114,14 @@ input[type="submit"]:hover{
 }
 
 
-@media (max-width:500px){
+@media (max-width:1118px){
     .boxs{
        margin-top:32%;
         width:100%;
 
     }
     .b1{
-        margin-top:0;
+        margin:1% auto;
     }
     .b2{
         margin-top:55%;
