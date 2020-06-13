@@ -2,7 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/','welcome');
+Route::get('/','PageController@inicio');
+
+
+Route::get('ini', 'PageController@iniciar')->name('inic');
+
+Route::get('regis', 'PageController@regis')->name('regist');
+
 
 Route::view('img','imagenes',[
     'num' => 505,
@@ -11,3 +17,4 @@ Route::view('img','imagenes',[
         'size'=>rand(),
     ],
 ]);
+
