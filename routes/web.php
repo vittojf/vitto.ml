@@ -5,13 +5,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','PageController@inicio');
 
 
-Route::get('ini', 'PageController@iniciar')->name('inic');
 
-Route::get('regis', 'PageController@regis')->name('regist');
+Route::get('ini/{in?}', 'PageController@ini')->name('formu');
+
+/*Route::get('regis', 'PageController@regis')->name('regist');
 
 Route::get('recuperar', 'PageController@recup')->name('recup');
 
 Route::get('ing-cont-nueva', 'PageController@newcont');
+
+
+
 
 Route::view('img','imagenes',[
     'num' => 505,
@@ -20,4 +24,4 @@ Route::view('img','imagenes',[
         'size'=>rand(),
     ],
 ]);
-
+*/

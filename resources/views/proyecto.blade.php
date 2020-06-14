@@ -7,19 +7,7 @@
 </head>
 
 <body>
-@yield('div')
 @yield('seccion')
-<div class="ch">
-<form method="" action="">
-@yield('inc')
-</form>
-
-</div>
-@yield('crear')
-</div>
-
-
-
 
 </body>
-</html>
+</html> 

@@ -1,8 +1,7 @@
 
 
 *{
-    margin:none;
-    padding:none;
+  
     box-sizing:border-box;
     font-family:Arial;
     text-decoration:none;
@@ -13,8 +12,9 @@ body{
 background: #00c6ff;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
+
+/*--------Cajas--------*/
   .boxs{
     position:relative;
     height:400px;
@@ -22,7 +22,7 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
     background:white;
     color:black;
     margin:5% auto;
-    border-radius:10px 10px 10px 10px;
+    border-radius:10px;
     text-align:center;
     transition:all 300ms;
     font-weight:bold;
@@ -32,13 +32,11 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
 }
 
 .b2{
-      margin: 15% auto;
+    margin: 15% auto;
     padding-top:1px;
-height:210px;
+    height:210px;
 
 }
-
-
 
 a{color:RGB(30, 144, 255);}
 
@@ -48,7 +46,7 @@ a{color:RGB(30, 144, 255);}
 #mak {
     
     background:#B22222;
-    border-radius:5px 5px 5px 5px; 
+    border-radius:5px; 
     text-decoration:none;
     color:white;
    padding:10px 50px 10px 50px;
@@ -58,22 +56,23 @@ a{color:RGB(30, 144, 255);}
 */
 .ch{   
 margin:auto;
-
 width:90%;
 text-align:left;
 font-weight:bold;
-
 }
-
 
 .b1{
     margin: 2% auto;
     padding-top:1px;
-height:700px;
+    height:700px;
 
 
 }
+.widht-box{
+    height: 350px;
+}
 
+/*--------inputs--------*/
 .ch input{
     font-size:11pt;
     display:block;
@@ -82,20 +81,15 @@ height:700px;
     padding-left:10px;
     height:35px;
     width:100%;
-    background: RGB(220, 220, 220, 0.8);
-    color:	
-RGB(105, 105, 105);
+    background: RGBA(220, 220, 220, 0.8);
+    color:RGB(105, 105, 105);
     font-weight:bold;
-    border-radius:5px 5px 5px 5px; 
-   
-   
-
+    border-radius:5px;
 }
+
 ::-webkit-input-placeholder { 
     font-weight:bold;
-    color: 	
-RGB(169, 169, 169); 
-   
+    color:RGB(169, 169, 169); 
     } 
 
 
@@ -110,17 +104,15 @@ input[type="submit"]{
     transition: all 300ms;
 }
 input[type="submit"]:hover{
-    background: RGB(220, 20, 60,0.7 );
+    background: RGBA(220, 20, 60,0.7 );
 }
 
 #mod{
     margin: 10% 0;
 }
 
-.widht-box{
-     height: 350px;
-}
 
+/*Ajuste para dispositivos*/
 @media (max-width:1118px){
     .boxs{
        margin-top:32%;

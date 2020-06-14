@@ -1,13 +1,11 @@
-@extends('proyecto')
+<!--@extends('proyecto')
 
 
 
 @section('div')
 <div class="boxs b1">
-@endsection
-
-
-@section('inc')
+ <div class="ch">
+ <form>
 <h1>Registro</h1>
 <label for="nom">Nombre</label>
 <input type="text" name="" id="nom" placeholder="Nombre" required>
@@ -34,4 +32,7 @@
 <input type="submit" value="Crear Cuenta">
 
 <a href="{{ route('inic') }}" id="sg"> ¿Tienes una cuenta? Accede a tu cuenta</a>
-@endsection
+</form>
+</div>
+</div>
+@endsection-->

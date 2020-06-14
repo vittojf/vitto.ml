@@ -11,9 +11,13 @@ class PageController extends Controller
 
     }
 
-    public function iniciar(){
-        return view('ini-sec');
-    }
+    public function ini($in = null){
+        $irc = ['iniciar','crear','recuperar'];
+///return view('ini-sec',['irc' => $irc]);
+return view('ini-sec',compact('irc','in'));
+}
+
+    
 
     public function regis(){
     return view('regis');

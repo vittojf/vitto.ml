@@ -1,9 +1,11 @@
-@extends('proyecto')
+<!-- @extends('proyecto')
 
 @section('div')
 <div class="boxs widht-box">
 @endsection
 
+
+@if(href)
 @section('inc')
 
 <h1>Recuperar Contraseña</h1>
@@ -16,4 +18,4 @@
 
 <input type="submit" value="Modificar" id="mod">
 
-@endsection
+@endsection -->
