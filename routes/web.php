@@ -5,11 +5,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','PageController@inicio');
 
 
-Route::view('hola','prueba',['numero' => 'vittoriano']);
-
-Route::get('ini/{in?}', 'PageController@ini')->name('formu');
-
 Route::view('frestorage','Frestorage');
+
+
+Route::get('inicio','PageController@freini');
+
+Route::get('login','PageController@login');
 
 /*Route::get('regis', 'PageController@regis')->name('regist');
 

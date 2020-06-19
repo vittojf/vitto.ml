@@ -1,6 +1,5 @@
 
 window.onscroll = function(){
-   
      if(scrollY <= 150){
         document.getElementById('header').style.top='';
         document.getElementById('header').style.background='';

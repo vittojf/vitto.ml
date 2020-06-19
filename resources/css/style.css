@@ -140,20 +140,27 @@ body {
   /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
-  #header {
+  #header, #headerlog {
     background: rgba(0, 0, 0, 0.1);
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
     top: 30px;
   }
+  #headerlog{
+    top:0;
+    background: rgba(5, 87, 158, 0.9);
+
+  }
   
-  #header.header-scrolled {
+  #header.header-scrolled,#headerlog.header-scrolled {
     top: 0;
     background: rgba(5, 87, 158, 0.9);
   }
+
+
   
-  #header .logo {
+  #header .logo ,#headerlog .logo {
     font-size: 32px;
     margin: 0;
     padding: 0;
@@ -163,21 +170,22 @@ body {
     
   }
   
-  #header .logo a {
+  
+  #header .logo a,#headerlog .logo a {
     color: #fff;
   }
   
-  #header .logo img {
+  #header .logo img,#headerlog .logo img {
     max-height: 40px;
   }
   
   @media (max-width: 992px) {
-    #header {
+    #header,#headerlog {
       top: 0;
       padding: 15px 0;
       background: transparent;
     }
-    #header .logo {
+    #header .logo,#headerlog .logo {
       font-size: 28px;
     }
   }
@@ -535,7 +543,7 @@ body {
   /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
-  section {
+  .section {
     padding: 60px 0;
     overflow: hidden;
   }
@@ -1435,6 +1443,11 @@ body {
     left: 0;
     right: 0;
   }
+  section{
+    padding: 60px 0;
+    overflow: hidden;
+
+  }
   
   .contact .container {
     position: relative;
@@ -1536,21 +1549,21 @@ body {
     animation: animate-loading 1s linear infinite;
   }
   
-  .contact .php-email-form input, .contact .php-email-form textarea {
+   .php-email-form input, .php-email-form textarea {
     border-radius: 4px;
     box-shadow: none;
     font-size: 14px;
   }
   
-  .contact .php-email-form input {
+  .php-email-form input {
     height: 44px;
   }
   
-  .contact .php-email-form textarea {
+  .php-email-form textarea {
     padding: 10px 12px;
   }
   
-  .contact .php-email-form button[type="submit"] {
+ .php-email-form button[type="submit"] {
     border: 0;
     padding: 10px 32px;
     color: #0880e8;
@@ -1560,7 +1573,7 @@ body {
     background: #fff;
   }
   
-  .contact .php-email-form button[type="submit"]:hover {
+ .php-email-form button[type="submit"]:hover {
     background: #0880e8;
     color: #fff;
   }
@@ -2420,8 +2433,8 @@ body {
   #topbar .topbar-scrolled{
       top: -60px;
   }
-
-  #header .header-scrolled{
+ .header-scrolled{
       top:0;
       background: rgba(5, 87, 158, 0.9);
   }
+
