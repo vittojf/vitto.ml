@@ -15,7 +15,7 @@ class PageController extends Controller
         $irc = ['iniciar','crear','recuperar'];
 ///return view('ini-sec',['irc' => $irc]);
 return view('ini-sec',compact('irc','in'));
-}
+}   
 
     
 

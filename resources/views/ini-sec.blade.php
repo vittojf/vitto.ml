@@ -6,7 +6,6 @@
 
 @if(!empty($in))
 
-
 @switch($in)
 
 @case($in=='iniciar')
@@ -73,6 +72,7 @@
             <label for="ema">Ingresar Correo de tu cuenta</label>
             <input type="email" name="" id="ema" placeholder="Correo Electronico" required>
             <input type="submit" name="veri" id=""" value=" Enviar solicitud">
+            
         </form>
     </div>
 </div>
