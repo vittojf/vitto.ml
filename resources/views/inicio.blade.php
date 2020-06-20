@@ -5,22 +5,24 @@
 <!-- ======= Header ======= -->
   <!-- ======= Header ======= -->
   <!-- End Header -->
-<header id="headers"  class="fixed-top ">
+<header id="headers" class="fixed-top navbar ">
+
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="#header" class="scrollto">Frestorage</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="#header" class="logo mr-auto scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h1 class="logo mr-auto"><a href="#header" class="scrollto">Frestorage</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#header" class="logo mr-auto scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <div id="topbar" class="d-none d-lg-flex align-items-center ">
-    <div class="container d-flex align-items-center">
-      <div class="cta">
-        <a href="#about" class="scrollto">Get Started</a>
-      </div>
+        <div id="topbar" class="d-lg-flex align-items-center ">
+            <div class="container d-flex align-items-center">
+                <div class="cta">
+                    <a href="#about" class="scrollto">Get Started</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-    </div>
-  </header>
+    
+</header>
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
     <div id="heroCarousel" class="container " data-ride="carousel">
