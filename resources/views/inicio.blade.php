@@ -2,7 +2,7 @@
 
 
 @section('secciones')
-
+<!-- ======= Header ======= -->
   <!-- ======= Header ======= -->
   <!-- End Header -->
 <header id="headers"  class="fixed-top ">
