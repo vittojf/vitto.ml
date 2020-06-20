@@ -80,11 +80,25 @@ body {
   # Top Bar
   --------------------------------------------------------------*/
   #topbar {
-    height: 60px;
+    
     font-size: 14px;
     transition: all 0.5s;
-    overflow: hidden;
+   top:5px;
     color: rgba(255, 255, 255, 0.8);
+  }
+  @media(max-width:998px){
+    #topbar{
+      top:10px;
+    }
+  }
+
+  @media(max-width:325px){
+    #topbar .cta a{
+
+ 
+      font-size: 10px;
+ 
+}
   }
   
   #topbar.topbar-scrolled {
@@ -122,6 +136,7 @@ body {
   
   #topbar .cta {
     background: transparent;
+    padding: 0;
   }
   
   #topbar .cta a {
@@ -136,11 +151,14 @@ body {
   #topbar .cta a:hover {
     background: #f1a40a;
   }
+ 
+   
+  
   
   /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
-  #header, #headerlog {
+  #headers, #headerlog {
     background: rgba(0, 0, 0, 0.1);
     transition: all 0.5s;
     z-index: 997;
@@ -153,14 +171,14 @@ body {
 
   }
   
-  #header.header-scrolled,#headerlog.header-scrolled {
+  #headers.header-scrolled,#headerlog.header-scrolled {
     top: 0;
     background: rgba(5, 87, 158, 0.9);
   }
 
 
   
-  #header .logo ,#headerlog .logo {
+  #headers .logo ,#headerlog .logo {
     font-size: 32px;
     margin: 0;
     padding: 0;
@@ -169,25 +187,46 @@ body {
     letter-spacing: 2px;
     
   }
+  #mdia{
+    margin: 10% 0 5% 0;
+  }
   
-  
-  #header .logo a,#headerlog .logo a {
+  #headers .logo a,#headerlog .logo a {
     color: #fff;
   }
   
-  #header .logo img,#headerlog .logo img {
+  #headers .logo img,#headerlog .logo img {
     max-height: 40px;
+  }
+  @media (max-width: 1025px){
+    #mdia{
+      margin-top:10%;
+    }
   }
   
   @media (max-width: 992px) {
-    #header,#headerlog {
-      top: 0;
-      padding: 15px 0;
-      background: transparent;
-    }
-    #header .logo,#headerlog .logo {
+    
+    #headers .logo,#headerlog .logo {
       font-size: 28px;
     }
+    
+  }
+
+ 
+
+  @media(max-width:688px){
+    #mdia{
+      margin-top: 15%;
+    }
+  }
+   
+  @media (max-width:501px){
+    #mdia{
+      margin-top: 18% ;
+    }
+  }
+  @media (max-width:424px){
+    #mdia{margin-top:22%;}
   }
   
   .header-inner-pages {
